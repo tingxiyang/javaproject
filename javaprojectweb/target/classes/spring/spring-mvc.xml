@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:mvc="http://www.springframework.org/schema/mvc" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p" 
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+					http://www.springframework.org/schema/beans/spring-beans.xsd 
+					http://www.springframework.org/schema/context 
+					http://www.springframework.org/schema/context/spring-context.xsd 
+					http://www.springframework.org/schema/mvc 
+					http://www.springframework.org/schema/mvc/spring-mvc.xsd
+					http://www.springframework.org/schema/task 
+					http://www.springframework.org/schema/task/spring-task.xsd">
+					
+	<!--<context:component-scan base-package="com.shebao">
+		<context:include-filter type="annotation"
+			expression="org.springframework.stereotype.Controller" />
+		<context:exclude-filter type="annotation"
+			expression="org.springframework.stereotype.Service" />
+	</context:component-scan>-->
+
+	<!-- 拦截器配置 -->
+<!--
+	<import resource="spring-config-interceptor.xml" />
+-->
+
+<!--
+	<bean id="bigDecimalSerializer" class="com.shebao.framelib.common.BigDecimalSerializer"></bean>
+-->
+
+	<mvc:view-resolvers>
+        <mvc:content-negotiation>
+            <mvc:default-views>
+                <bean class="org.springframework.web.servlet.view.json.MappingJackson2JsonView">
+                	<property name="extractValueFromSingleKeyModel" value="true" />
+                	<property name="objectMapper">
+	                    <bean class="org.springframework.http.converter.json.Jackson2ObjectMapperFactoryBean">
+	                    	<property name="serializationInclusion">
+								<value
+									type="com.fasterxml.jackson.annotation.JsonInclude.Include">NON_NULL</value>
+							</property>
+	                    </bean>
+                	</property>
+                </bean>
+            </mvc:default-views>
+        </mvc:content-negotiation>
+        <mvc:jsp cache-views="false" prefix="/WEB-INF/jsps/" suffix=".jsp"/>
+    </mvc:view-resolvers>
+	<mvc:default-servlet-handler/>
+
+	<!-- 配置 multipartResolver 用户文件上传 -->
+	<!--<bean id="multipartResolver"
+		class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<property name="maxUploadSize" value="209715200" />&lt;!&ndash; 上传文件大小限制为200M，200*1024*1024 &ndash;&gt;
+		<property name="defaultEncoding" value="UTF-8" />
+	</bean>-->
+
+	<!-- 国际化的消息资源文件 -->
+	<bean id="messageSource"
+		class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
+		<property name="basenames">
+			<list>
+				<!-- 在web环境中一定要定位到classpath 否则默认到当前web应用下找 -->
+				<value>classpath:conf/messages</value>
+			</list>
+		</property>
+		<property name="defaultEncoding" value="UTF-8" />
+		<property name="cacheSeconds" value="60" />
+	</bean>
+	<mvc:resources location="/js/*,/images/*" mapping="/js/**,/images/**"></mvc:resources>
+	<!-- 启用注解式事务 必须要这里启用-->
+	<mvc:annotation-driven/>
+	
+	<task:annotation-driven/>
+	
+</beans>

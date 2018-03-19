@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="GBK"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+	default-autowire="byName">
+
+	<!-- dataSource -->
+	<bean id="parentDataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+		<property name="driverClassName" value="${jdbc.driverClassName}" />
+
+		<!-- 连接池启动时的初始值 -->
+		<property name="initialSize" value="2" />
+		<!-- 连接池的最大值 -->
+		<property name="maxActive" value="100" />
+		<!-- 最大空闲值.当经过一个高峰时间后，连接池可以慢慢将已经用不到的连接慢慢释放一部分，一直减少到maxIdle为止 -->
+		<property name="maxIdle" value="5" />
+		<!-- 最小空闲值.当空闲的连接数少于阀值时，连接池就会预申请去一些连接，以免洪峰来时来不及申请 -->
+		<property name="minIdle" value="2" />
+		<property name="maxWait" value="15000" />
+		<property name="minEvictableIdleTimeMillis" value="180000" />
+		<property name="timeBetweenEvictionRunsMillis" value="60000" />
+		<property name="removeAbandoned" value="true" />
+		<property name="removeAbandonedTimeout" value="60" />
+		<property name="logAbandoned" value="true" />
+		<property name="testOnBorrow" value="true" />
+		<property name="testOnReturn" value="true" />
+		<property name="testWhileIdle" value="true" />
+	</bean>
+
+	<bean id="dataSource" parent="parentDataSource">
+		<property name="url" value="${jdbc.main.url}" />
+		<property name="username" value="${jdbc.main.username}" />
+		<property name="password" value="${jdbc.main.password}" />
+	</bean>
+	
+	<bean id="dataSourceErp" parent="parentDataSource">
+		<property name="url" value="${jdbc.main.url.erp}" />
+		<property name="username" value="${jdbc.main.username.erp}" />
+		<property name="password" value="${jdbc.main.password.erp}" />
+	</bean>
+	
+	<bean id="dataSourceMd" parent="parentDataSource">
+		<property name="url" value="${jdbc.main.url.md}" />
+		<property name="username" value="${jdbc.main.username.md}" />
+		<property name="password" value="${jdbc.main.password.md}" />
+	</bean>
+	
+	<!--<bean id="multipleDataSource" class="com.shebao.framelib.datasource.MultipleDataSource">
+        <property name="defaultTargetDataSource" ref="dataSource" />
+        <property name="targetDataSources">
+            <map>
+                <entry key="SqlDataSource" value-ref="dataSource" />
+                <entry key="${jdbc.main.dataSourceErp}" value-ref="dataSourceErp" />
+                <entry key="${jdbc.main.dataSourceMd}" value-ref="dataSourceMd" />
+            </map>
+        </property>
+    </bean>
+	
+	<bean class="org.mybatis.spring.SqlSessionFactoryBean" name="sqlSessionFactoryName">
+		<property name="dataSource" ref="multipleDataSource"/>
+		<property name="configLocation" value="classpath:spring/sqlmap-config.xml" />
+	</bean>
+    
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactoryName" />
+		<property name="basePackage"
+			value="com.shebao.**.mapper" />
+	</bean>-->
+</beans>
