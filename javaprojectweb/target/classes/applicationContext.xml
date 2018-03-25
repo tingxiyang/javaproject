@@ -7,8 +7,28 @@
 	    http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.2.xsd  
 	    http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.2.xsd"
 	default-autowire="byName">
-	
-	<!-- disconfï¿½ï¿½ï¿½ï¿½ -->
+
+
+	<!-- °üÉ¨Ãè¡¢Ö»Òª±ê×¢ÁË@Controller, @Service, @Repository, @Component -->
+<!--
+	<context:component-scan base-package="com.zhl"  />
+-->
+
+	<bean name="person" class="com.zhl.springAnnotation.Person" scope="singleton">
+		<property name="name" value="zhanghongli" />
+		<property name="age" value="12" />
+	</bean>
+
+
+
+	<!--<context:component-scan base-package="com.zhl">
+	</context:component-scan>-->
+
+<!--
+	<aop:aspectj-autoproxy proxy-target-class="true"/>
+-->
+
+	<!-- disconfÅäÖÃ -->
 <!--
     <import resource="spring/disconf-config.xml"/>
 -->
@@ -30,15 +50,18 @@
   <!--  <bean id="multipleDataSourceAspectAdvice"
         class="com.shebao.base.mapper.MultipleDataSourceAspectAdvice"></bean>
     <aop:config>
-        <aop:aspect ref="multipleDataSourceAspectAdvice"> &lt;!&ndash;Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ &ndash;&gt;
-            &lt;!&ndash;ï¿½ï¿½ï¿½ï¿½ï¿½Ðµï¿½ &ndash;&gt;
+        <aop:aspect ref="multipleDataSourceAspectAdvice"> &lt;!&ndash;Ö¸¶¨ÇÐÃæ &ndash;&gt;
+            &lt;!&ndash;¶¨ÒåÇÐµã &ndash;&gt;
             <aop:pointcut id="point"
                 expression="execution(* com.shebao.**.mapper.*.*(..)) or execution(* com.shebao.**.sc.mapper.*.*(..))"></aop:pointcut>
 
-            &lt;!&ndash;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Óµï¿½ &ndash;&gt;
+            &lt;!&ndash;¶¨ÒåÁ¬½Óµã &ndash;&gt;
             <aop:around pointcut-ref="point" method="doAround"></aop:around>
         </aop:aspect>
     </aop:config>-->
+
+
+
 
 
 </beans>
