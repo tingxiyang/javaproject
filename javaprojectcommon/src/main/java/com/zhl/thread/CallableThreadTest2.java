@@ -20,7 +20,7 @@ public class CallableThreadTest2 {
 
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<>();
-        for(int i=0; i<100000; i++){
+        for(int i=0; i<10000; i++){
             list.add(i);
         }
         CallableThreadTest2 callableThreadTest2 = new CallableThreadTest2();
@@ -111,6 +111,7 @@ public class CallableThreadTest2 {
             LOG.info("定时触发生成分录异常！");
             return null;
         }
+//        threadPool.shutdown();
         return arrayList;
     }
 

@@ -58,6 +58,7 @@ public class CallableUtil {
         } catch (Exception e) {
             e.printStackTrace();
         }
+        threadPool.shutdown();
 
         return returnList;
 
@@ -141,18 +142,18 @@ public class CallableUtil {
 
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<>();
-        for(int i=0; i<30000; i++){
+        for(int i=0; i<10000; i++){
             list.add(i+1);
         }
         System.out.println("list size():"+list.size());
         CallableUtil ca = new CallableUtil();
-//        Long start = System.nanoTime();
-//        List<String> result = ca.dealWithData(list);
-//        System.out.println("查询总用时>>" + (System.nanoTime() - start) );
+        Long start = System.nanoTime();
+        List<String> result = ca.dealWithData(list);
+        System.out.println("查询总用时>>" + (System.nanoTime() - start) );
 //
-        Long startNew = System.nanoTime();
-        List<String> resultNew = ca.initDataNew(list);
-        System.out.println("查询总用时new>>" + (System.nanoTime() - startNew) );
+//        Long startNew = System.nanoTime();
+//        List<String> resultNew = ca.initDataNew(list);
+//        System.out.println("查询总用时new>>" + (System.nanoTime() - startNew) );
 
         /*for(String r : result){
             System.out.println("name: "+r);

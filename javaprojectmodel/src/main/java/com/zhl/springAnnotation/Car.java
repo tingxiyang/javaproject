@@ -1,8 +1,11 @@
 package com.zhl.springAnnotation;
 
+import org.springframework.stereotype.Component;
+
 /**
  * Created by zhl on 18/3/25 下午9:35.
  */
+@Component
 public class Car {
 
     private String name;
