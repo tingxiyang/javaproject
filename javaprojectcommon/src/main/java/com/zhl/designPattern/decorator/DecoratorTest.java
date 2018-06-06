@@ -8,12 +8,12 @@ public class DecoratorTest {
         Pancake tornCake = new TornCake();
         tornCake = new Ham(tornCake);//火腿肠
         //手抓饼基础价
-        System.out.println(String.format("%s ￥%s", tornCake.getDesc(), tornCake.price()));
+        System.out.println(String.format("%s; ￥%s", tornCake.getDesc(), tornCake.price()));
 
-        Pancake roujiamo = new Roujiamo();
+        /*Pancake roujiamo = new Roujiamo();
 
         roujiamo = new FiredEgg(roujiamo);
         roujiamo = new Ham(roujiamo);
-        System.out.println(String.format("%s ￥%s", roujiamo.getDesc(), roujiamo.price()));
+        System.out.println(String.format("%s ￥%s", roujiamo.getDesc(), roujiamo.price()));*/
     }
 }

@@ -13,7 +13,7 @@ public class Ham extends Condiment {
 
     @Override
     public String getDesc() {
-        return pancake.getDesc() + ", 火腿肠";
+        return pancake.getDesc() + ", 火腿肠2根";
     }
 
     @Override
