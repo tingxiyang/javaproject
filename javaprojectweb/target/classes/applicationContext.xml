@@ -9,7 +9,7 @@
 	default-autowire="byName">
 
 
-	<!-- °üÉ¨Ãè¡¢Ö»Òª±ê×¢ÁË@Controller, @Service, @Repository, @Component -->
+	<!-- ï¿½ï¿½É¨ï¿½è¡¢Ö»Òªï¿½ï¿½×¢ï¿½ï¿½@Controller, @Service, @Repository, @Component -->
 <!--
 	<context:component-scan base-package="com.zhl"  />
 -->
@@ -31,11 +31,11 @@
 	</context:component-scan>-->
 
 <!--
-	¿ªÆô»ùÓÚ×¢½âµÄÇÐÃæ
+	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	<aop:aspectj-autoproxy proxy-target-class="true"/>
 -->
 
-	<!-- disconfÅäÖÃ -->
+	<!-- disconfï¿½ï¿½ï¿½ï¿½ -->
 <!--
     <import resource="spring/disconf-config.xml"/>
 -->
@@ -57,12 +57,12 @@
   <!--  <bean id="multipleDataSourceAspectAdvice"
         class="com.shebao.base.mapper.MultipleDataSourceAspectAdvice"></bean>
     <aop:config>
-        <aop:aspect ref="multipleDataSourceAspectAdvice"> &lt;!&ndash;Ö¸¶¨ÇÐÃæ &ndash;&gt;
-            &lt;!&ndash;¶¨ÒåÇÐµã &ndash;&gt;
+        <aop:aspect ref="multipleDataSourceAspectAdvice"> &lt;!&ndash;Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ &ndash;&gt;
+            &lt;!&ndash;ï¿½ï¿½ï¿½ï¿½ï¿½Ðµï¿½ &ndash;&gt;
             <aop:pointcut id="point"
                 expression="execution(* com.shebao.**.mapper.*.*(..)) or execution(* com.shebao.**.sc.mapper.*.*(..))"></aop:pointcut>
 
-            &lt;!&ndash;¶¨ÒåÁ¬½Óµã &ndash;&gt;
+            &lt;!&ndash;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Óµï¿½ &ndash;&gt;
             <aop:around pointcut-ref="point" method="doAround"></aop:around>
         </aop:aspect>
     </aop:config>-->

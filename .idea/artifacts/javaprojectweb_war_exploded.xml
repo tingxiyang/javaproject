@@ -10,10 +10,10 @@
           <element id="archive" name="java-project-service-1.0-SNAPSHOT.jar">
             <element id="module-output" name="javaprojectservice" />
           </element>
-          <element id="library" level="project" name="Maven: org.junit.jupiter:junit-jupiter-api:5.1.0" />
+          <element id="library" level="project" name="Maven: org.junit.jupiter:junit-jupiter-api:5.4.0-M1" />
           <element id="library" level="project" name="Maven: org.apiguardian:apiguardian-api:1.0.0" />
-          <element id="library" level="project" name="Maven: org.opentest4j:opentest4j:1.0.0" />
-          <element id="library" level="project" name="Maven: org.junit.platform:junit-platform-commons:1.1.0" />
+          <element id="library" level="project" name="Maven: org.opentest4j:opentest4j:1.1.1" />
+          <element id="library" level="project" name="Maven: org.junit.platform:junit-platform-commons:1.4.0-M1" />
           <element id="archive" name="java-project-model-1.0-SNAPSHOT.jar">
             <element id="module-output" name="javaprojectmodel" />
           </element>
@@ -22,6 +22,10 @@
           </element>
           <element id="library" level="project" name="Maven: junit:junit:4.12" />
           <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:1.3" />
+          <element id="library" level="project" name="Maven: org.apache.zookeeper:zookeeper:3.4.6" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.16" />
+          <element id="library" level="project" name="Maven: jline:jline:0.9.94" />
+          <element id="library" level="project" name="Maven: io.netty:netty:3.7.0.Final" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.4.1" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.1" />
           <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
@@ -35,11 +39,11 @@
           <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-1.2-api:2.7" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.5" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.7.5" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.7" />
           <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.4.0" />
           <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:1.3.0" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-test:4.3.12.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.3.12.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.3.12.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.3.12.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aspects:4.3.12.RELEASE" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.8.9" />
           <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.3.12.RELEASE" />
@@ -75,18 +79,16 @@
           <element id="library" level="project" name="Maven: commons-cli:commons-cli:1.2" />
           <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.6" />
           <element id="library" level="project" name="Maven: javassist:javassist:3.8.0.GA" />
-          <element id="library" level="project" name="Maven: log4j:log4j:1.2.16" />
           <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-library:1.1" />
           <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-core:1.0.8" />
           <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-api:1.0.8" />
           <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-runtime:1.0.8" />
           <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-collectionschema:1.0.8" />
-          <element id="library" level="project" name="Maven: org.apache.zookeeper:zookeeper:3.4.6" />
-          <element id="library" level="project" name="Maven: jline:jline:0.9.94" />
-          <element id="library" level="project" name="Maven: io.netty:netty:3.7.0.Final" />
           <element id="library" level="project" name="Maven: org.apache.commons:commons-collections4:4.0" />
           <element id="library" level="project" name="Maven: org.objenesis:objenesis:2.1" />
           <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
+          <element id="library" level="project" name="Maven: redis.clients:jedis:3.0.0" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-pool2:2.4.3" />
         </element>
       </element>
       <element id="directory" name="META-INF">

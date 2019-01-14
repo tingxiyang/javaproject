@@ -29,9 +29,18 @@
         <c3p0.version>0.9.1.2</c3p0.version>
         <dbcp.version>1.4</dbcp.version>
         <jstl.version>1.2</jstl.version>
+        <commont-lang.version>3.7</commont-lang.version>
+
     </properties>
 
     <dependencies>
+        <!-- zookeeper -->
+        <dependency>
+            <groupId>org.apache.zookeeper</groupId>
+            <artifactId>zookeeper</artifactId>
+            <version>3.4.6</version>
+        </dependency>
+
         <!-- http 服务 -->
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
@@ -102,7 +111,11 @@
             <version>${log4j.version}</version>
         </dependency>-->
 
-
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${commont-lang.version}</version>
+        </dependency>
 
         <!-- mybatis -->
         <dependency>
@@ -135,11 +148,11 @@
         </dependency>
 
         <!-- spring -->
-        <dependency>
+        <!--<dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
             <version>${spring.version}</version>
-        </dependency>
+        </dependency>-->
 
         <dependency>
             <groupId>org.springframework</groupId>
@@ -262,6 +275,15 @@
             <groupId>jstl</groupId>
             <artifactId>jstl</artifactId>
             <version>${jstl.version}</version>
+        </dependency>
+
+        <!-- redis -->
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>3.0.0</version>
+            <type>jar</type>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
     <build>

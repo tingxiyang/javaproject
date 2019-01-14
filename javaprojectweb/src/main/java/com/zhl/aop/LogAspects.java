@@ -1,6 +1,5 @@
 package com.zhl.aop;
 
-import jdk.nashorn.internal.scripts.JO;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.*;
 import org.aspectj.lang.annotation.Aspect;
