@@ -7,98 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f2b5d40-11b4-4c68-9d02-2930b8bf54fc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_3_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectcommon/src/main/java/com/zhl/collection/Entry.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectcommon/src/main/java/com/zhl/collection/HashMapExplore.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectcommon/src/main/java/com/zhl/collection/MyHashMap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectcommon/src/main/java/com/zhl/collection/MyMap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectcommon/src/main/java/com/zhl/syn/Client.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectcommon/src/main/java/com/zhl/syn/ExecutorDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectcommon/src/main/java/com/zhl/util/DateUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/TestClassLoader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/algorithm/BubbleSort01.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/algorithm/IArraySort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/algorithm/InsertSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/algorithm/SelectionSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/algorithm/TestAlgorithm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/algorithm/stack01.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/annotation/Client.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/annotation/Component.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/annotation/UpperCaseComponent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/java8/testLoop.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/map/Node.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/map/TestMap01.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/object/TestToString.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/proxy/ProxySubject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/proxy/RealSubject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/proxy/Subject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/proxy/cglib/Hacker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/proxy/cglib/Programmer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/proxy/cglib/TestCglib.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/proxy/dynamicProxy/JDKDynamicpProxyTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/proxy/testProxy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/redis/client/Client.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/redis/con/Connection.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/redis/hack/Hack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/redis/protocol/Protocol.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/redis/testJedis.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/testFile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/testHashMap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/testJsonObject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/testList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/testReflect.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/testTime.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/thread/Callable01.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/thread/Runable01.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/thread/TestLockAndCondition.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/thread/Thread01.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/thread/ThreadPoolExample01.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/thread/ThreadPoolExecutor01.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/thread/ThreadPoolTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/thread/ThreadTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/thread/example/StartExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/thread/example/StopExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/thread/example/SyncTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/thread/juc/AQStest01.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/zk/ZookeeperProSync.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/zk/distributed/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/zk/distributed/Order.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/zk/distributed/Payment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/zk/distributed/Stock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/zk/mysqlLock/MysqlLock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/test/java/testGlobalParam.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_12_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javaprojectweb/target/java-project-web-1.0-SNAPSHOT-20180315112044.war" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_4_0_M1.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_4_0_M1.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaprojectcommon/target/java-project-common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/javaprojectcommon/target/java-project-common-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaprojectmodel/target/java-project-model-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/javaprojectmodel/target/java-project-model-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaprojectservice/target/java-project-service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/javaprojectservice/target/java-project-service-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/javaprojectweb_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/javaprojectweb_war.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/javaprojectweb_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/javaprojectweb_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/designModel/adapter/Circle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/designModel/adapter/HybridShape.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/designModel/adapter/ICircle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/designModel/adapter/ISquare.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/designModel/adapter/Square.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaproject.iml" afterPath="$PROJECT_DIR$/javaproject.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaprojectcommon/javaprojectcommon.iml" afterPath="$PROJECT_DIR$/javaprojectcommon/javaprojectcommon.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaprojectcommon/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/javaprojectcommon/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaprojectcommon/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/javaprojectcommon/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaprojectmodel/javaprojectmodel.iml" afterPath="$PROJECT_DIR$/javaprojectmodel/javaprojectmodel.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaprojectmodel/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/javaprojectmodel/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaprojectmodel/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/javaprojectmodel/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaprojectservice/javaprojectservice.iml" afterPath="$PROJECT_DIR$/javaprojectservice/javaprojectservice.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaprojectservice/src/test/java/testList.java" afterPath="$PROJECT_DIR$/javaprojectservice/src/test/java/testList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaprojectservice/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/javaprojectservice/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaprojectservice/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/javaprojectservice/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaprojectservice/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/javaprojectservice/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaprojectweb/javaprojectweb.iml" afterPath="$PROJECT_DIR$/javaprojectweb/javaprojectweb.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaprojectweb/src/main/java/com/zhl/aop/LogAspects.java" afterPath="$PROJECT_DIR$/javaprojectweb/src/main/java/com/zhl/aop/LogAspects.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaprojectweb/target/classes/applicationContext.xml" afterPath="$PROJECT_DIR$/javaprojectweb/target/classes/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaprojectweb/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/javaprojectweb/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaprojectweb/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/javaprojectweb/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaprojectweb/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/javaprojectweb/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -115,21 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BubbleSort01.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/algorithm/BubbleSort01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SelectionSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/algorithm/SelectionSort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
-              <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+              <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -139,7 +43,72 @@
         <entry file="file://$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/algorithm/InsertSort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="550">
-              <caret line="25" column="9" lean-forward="false" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+              <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ICircle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/designModel/adapter/ICircle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Circle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/designModel/adapter/Circle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding>
+                <element signature="e#167#168#0" expanded="true" />
+                <element signature="e#207#208#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Square.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/designModel/adapter/Square.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+              <folding>
+                <element signature="e#167#168#0" expanded="true" />
+                <element signature="e#207#208#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HybridShape.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/designModel/adapter/HybridShape.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+              <folding>
+                <element signature="e#254#255#0" expanded="true" />
+                <element signature="e#291#292#0" expanded="true" />
+                <element signature="e#331#332#0" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#414#415#0" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
+                <element signature="e#496#497#0" expanded="true" />
+                <element signature="e#532#533#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ISquare.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/designModel/adapter/ISquare.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -150,6 +119,29 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
               <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Arrays.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5258">
+              <caret line="288" column="29" lean-forward="false" selection-start-line="288" selection-start-column="29" selection-end-line="288" selection-end-column="29" />
+              <folding>
+                <element signature="e#5027#5028#0" expanded="true" />
+                <element signature="e#5098#5099#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DualPivotQuicksort.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/DualPivotQuicksort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2046">
+              <caret line="116" column="41" lean-forward="false" selection-start-line="116" selection-start-column="41" selection-end-line="116" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -218,13 +210,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/testHashMap.java" />
-        <option value="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/annotation/Component.java" />
-        <option value="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/annotation/UpperCaseComponent.java" />
-        <option value="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/annotation/Client.java" />
-        <option value="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/proxy/Subject.java" />
-        <option value="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/proxy/RealSubject.java" />
-        <option value="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/proxy/testProxy.java" />
         <option value="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/proxy/ProxySubject.java" />
         <option value="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/proxy/dynamicProxy/JDKDynamicpProxyTest.java" />
         <option value="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/proxy/cglib/Programmer.java" />
@@ -269,6 +254,13 @@
         <option value="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/algorithm/TestAlgorithm.java" />
         <option value="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/algorithm/SelectionSort.java" />
         <option value="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/algorithm/InsertSort.java" />
+        <option value="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/designModel.java" />
+        <option value="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/designModel/adapter/ISquare.java" />
+        <option value="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/designModel/adapter/ICircle.java" />
+        <option value="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/designModel/adapter/Cirecle.java" />
+        <option value="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/designModel/adapter/Circle.java" />
+        <option value="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/designModel/adapter/Square.java" />
+        <option value="$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/designModel/adapter/HybridShape.java" />
       </list>
     </option>
   </component>
@@ -366,7 +358,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -430,6 +421,29 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="zhl" type="462c0819:PsiDirectoryNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaproject" type="462c0819:PsiDirectoryNode" />
+              <item name="javaprojectservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zhl" type="462c0819:PsiDirectoryNode" />
+              <item name="designModel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaproject" type="462c0819:PsiDirectoryNode" />
+              <item name="javaprojectservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zhl" type="462c0819:PsiDirectoryNode" />
+              <item name="designModel" type="462c0819:PsiDirectoryNode" />
+              <item name="adapter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javaproject" type="b2602c69:ProjectViewProjectNode" />
@@ -535,8 +549,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -546,7 +561,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java&#10;ReentrantLock&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;synchronized&#9;PSI&#9;JAVA://com.sun.tools.javac.tree.JCTree.Factory#Synchronized&#10;Thread&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java&#10;Count&#9;PSI&#9;JAVA://java.util.concurrent.CountDownLatch&#10;LinkedB&#9;PSI&#9;JAVA://java.util.concurrent.LinkedBlockingQueue&#10;Linked&#9;PSI&#9;JAVA://java.util.concurrent.LinkedBlockingDeque&#10;Future&#9;PSI&#9;JAVA://java.util.concurrent.Future&#10;ExecutorService&#9;PSI&#9;JAVA://java.util.concurrent.ExecutorService&#10;Object&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar!/java/lang/Object.class&#10;reentrantLock&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;Queue&#9;PSI&#9;JAVA://java.util.Queue&#10;Cg&#9;FILE&#9;jar:///Users/zhl/.m2/repository/org/springframework/spring-aop/4.3.12.RELEASE/spring-aop-4.3.12.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class&#10;Main&#9;FILE&#9;file:///Users/zhl/IdeaProjects/javaproject/javaprojectweb/src/main/java/com/zhl/springAnnotation/MainConfigOfAOP.java&#10;Anno&#9;FILE&#9;jar:///Users/zhl/.m2/repository/org/springframework/spring-aop/4.3.12.RELEASE/spring-aop-4.3.12.RELEASE.jar!/org/springframework/aop/aspectj/annotation/AnnotationAwareAspectJAutoProxyCreator.class&#10;Abstr&#9;FILE&#9;jar:///Users/zhl/.m2/repository/org/springframework/spring-aop/4.3.12.RELEASE/spring-aop-4.3.12.RELEASE.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.class&#10;Defa&#9;FILE&#9;jar:///Users/zhl/.m2/repository/org/springframework/spring-beans/4.3.12.RELEASE/spring-beans-4.3.12.RELEASE.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.class&#10;En&#9;FILE&#9;jar:///Users/zhl/.m2/repository/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE.jar!/org/springframework/context/annotation/EnableAspectJAutoProxy.class&#10;Enab&#9;PSI&#9;JAVA://org.springframework.context.annotation.EnableAspectJAutoProxy&#10;AopP&#9;PSI&#9;JAVA://org.springframework.aop.framework.AopProxyFactory&#10;AbstractApplicationContext&#9;FILE&#9;jar:///Users/zhl/.m2/repository/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class&#10;DefaultListableBeanFactory&#9;PSI&#9;JAVA://org.springframework.beans.factory.support.DefaultListableBeanFactory&#10;BeanFa&#9;PSI&#9;JAVA://org.springframework.beans.factory.BeanFactory&#10;BeanFactor&#9;PSI&#9;JAVA://org.springframework.beans.factory.BeanFactory&#10;XmlBeanDefinitionReader&#9;PSI&#9;JAVA://org.springframework.beans.factory.xml.XmlBeanDefinitionReader&#10;ApplicationContextAwareProcessor&#9;FILE&#9;jar:///Users/zhl/.m2/repository/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE.jar!/org/springframework/context/support/ApplicationContextAwareProcessor.class&#10;BeanDefinition&#9;FILE&#9;jar:///Users/zhl/.m2/repository/org/springframework/spring-beans/4.3.12.RELEASE/spring-beans-4.3.12.RELEASE.jar!/org/springframework/beans/factory/config/BeanDefinition.class&#10;registerBeanPostProcessors&#9;PSI&#9;JAVA://org.springframework.context.support.PostProcessorRegistrationDelegate#registerBeanPostProcessors&#10;refresh&#9;PSI&#9;JAVA://org.springframework.aop.target.dynamic.Refreshable&#10;ConfigurableListableBeanFactory&#9;PSI&#9;JAVA://org.springframework.beans.factory.config.ConfigurableListableBeanFactory&#10;AutowiredFieldElement&#9;PSI&#9;JAVA://org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.AutowiredFieldElement&#10;AutoWiredF&#9;PSI&#9;JAVA://org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.AutowiredFieldElement&#10;Inject&#9;FILE&#9;jar:///Users/zhl/.m2/repository/org/springframework/spring-beans/4.3.12.RELEASE/spring-beans-4.3.12.RELEASE.jar!/org/springframework/beans/factory/annotation/InjectionMetadata.class&#10;InjectionM&#9;PSI&#9;JAVA://org.springframework.beans.factory.annotation.InjectionMetadata&#10;Instanti&#9;FILE&#9;jar:///Users/zhl/.m2/repository/org/springframework/spring-beans/4.3.12.RELEASE/spring-beans-4.3.12.RELEASE.jar!/org/springframework/beans/factory/config/InstantiationAwareBeanPostProcessor.class&#10;Autow&#9;FILE&#9;jar:///Users/zhl/.m2/repository/org/springframework/spring-beans/4.3.12.RELEASE/spring-beans-4.3.12.RELEASE.jar!/org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.class&#10;ApplicationContextAware&#9;FILE&#9;jar:///Users/zhl/.m2/repository/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE.jar!/org/springframework/context/ApplicationContextAware.class&#10;BeanFactoryP&#9;PSI&#9;JAVA://org.springframework.beans.factory.config.BeanFactoryPostProcessor&#10;Bean&#9;FILE&#9;jar:///Users/zhl/.m2/repository/org/springframework/spring-beans/4.3.12.RELEASE/spring-beans-4.3.12.RELEASE.jar!/org/springframework/beans/factory/config/BeanPostProcessor.class&#10;ApplicationCont&#9;FILE&#9;jar:///Users/zhl/.m2/repository/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE.jar!/org/springframework/context/support/ApplicationContextAwareProcessor.class&#10;ApplicationContextAw&#9;PSI&#9;JAVA://org.springframework.context.support.ApplicationContextAwareProcessor&#10;AutowiredAnnotationBeanPostProcessor&#9;FILE&#9;jar:///Users/zhl/.m2/repository/org/springframework/spring-beans/4.3.12.RELEASE/spring-beans-4.3.12.RELEASE.jar!/org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.class&#10;BeanPost&#9;PSI&#9;JAVA://org.springframework.beans.factory.config.BeanPostProcessor&#10;Post&#9;PSI&#9;JAVA://javax.annotation.PostConstruct" />
+    <property name="SearchEverywhereHistoryKey" value="Arrays&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/Arrays.java&#10;ReentrantLock&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;synchronized&#9;PSI&#9;JAVA://com.sun.tools.javac.tree.JCTree.Factory#Synchronized&#10;Thread&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java&#10;Count&#9;PSI&#9;JAVA://java.util.concurrent.CountDownLatch&#10;LinkedB&#9;PSI&#9;JAVA://java.util.concurrent.LinkedBlockingQueue&#10;Linked&#9;PSI&#9;JAVA://java.util.concurrent.LinkedBlockingDeque&#10;Future&#9;PSI&#9;JAVA://java.util.concurrent.Future&#10;ExecutorService&#9;PSI&#9;JAVA://java.util.concurrent.ExecutorService&#10;Object&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar!/java/lang/Object.class&#10;reentrantLock&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;Queue&#9;PSI&#9;JAVA://java.util.Queue&#10;Cg&#9;FILE&#9;jar:///Users/zhl/.m2/repository/org/springframework/spring-aop/4.3.12.RELEASE/spring-aop-4.3.12.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class&#10;Main&#9;FILE&#9;file:///Users/zhl/IdeaProjects/javaproject/javaprojectweb/src/main/java/com/zhl/springAnnotation/MainConfigOfAOP.java&#10;Anno&#9;FILE&#9;jar:///Users/zhl/.m2/repository/org/springframework/spring-aop/4.3.12.RELEASE/spring-aop-4.3.12.RELEASE.jar!/org/springframework/aop/aspectj/annotation/AnnotationAwareAspectJAutoProxyCreator.class&#10;Abstr&#9;FILE&#9;jar:///Users/zhl/.m2/repository/org/springframework/spring-aop/4.3.12.RELEASE/spring-aop-4.3.12.RELEASE.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.class&#10;Defa&#9;FILE&#9;jar:///Users/zhl/.m2/repository/org/springframework/spring-beans/4.3.12.RELEASE/spring-beans-4.3.12.RELEASE.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.class&#10;En&#9;FILE&#9;jar:///Users/zhl/.m2/repository/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE.jar!/org/springframework/context/annotation/EnableAspectJAutoProxy.class&#10;Enab&#9;PSI&#9;JAVA://org.springframework.context.annotation.EnableAspectJAutoProxy&#10;AopP&#9;PSI&#9;JAVA://org.springframework.aop.framework.AopProxyFactory&#10;AbstractApplicationContext&#9;FILE&#9;jar:///Users/zhl/.m2/repository/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class&#10;DefaultListableBeanFactory&#9;PSI&#9;JAVA://org.springframework.beans.factory.support.DefaultListableBeanFactory&#10;BeanFa&#9;PSI&#9;JAVA://org.springframework.beans.factory.BeanFactory&#10;BeanFactor&#9;PSI&#9;JAVA://org.springframework.beans.factory.BeanFactory&#10;XmlBeanDefinitionReader&#9;PSI&#9;JAVA://org.springframework.beans.factory.xml.XmlBeanDefinitionReader&#10;ApplicationContextAwareProcessor&#9;FILE&#9;jar:///Users/zhl/.m2/repository/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE.jar!/org/springframework/context/support/ApplicationContextAwareProcessor.class&#10;BeanDefinition&#9;FILE&#9;jar:///Users/zhl/.m2/repository/org/springframework/spring-beans/4.3.12.RELEASE/spring-beans-4.3.12.RELEASE.jar!/org/springframework/beans/factory/config/BeanDefinition.class&#10;registerBeanPostProcessors&#9;PSI&#9;JAVA://org.springframework.context.support.PostProcessorRegistrationDelegate#registerBeanPostProcessors&#10;refresh&#9;PSI&#9;JAVA://org.springframework.aop.target.dynamic.Refreshable&#10;ConfigurableListableBeanFactory&#9;PSI&#9;JAVA://org.springframework.beans.factory.config.ConfigurableListableBeanFactory&#10;AutowiredFieldElement&#9;PSI&#9;JAVA://org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.AutowiredFieldElement&#10;AutoWiredF&#9;PSI&#9;JAVA://org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.AutowiredFieldElement&#10;Inject&#9;FILE&#9;jar:///Users/zhl/.m2/repository/org/springframework/spring-beans/4.3.12.RELEASE/spring-beans-4.3.12.RELEASE.jar!/org/springframework/beans/factory/annotation/InjectionMetadata.class&#10;InjectionM&#9;PSI&#9;JAVA://org.springframework.beans.factory.annotation.InjectionMetadata&#10;Instanti&#9;FILE&#9;jar:///Users/zhl/.m2/repository/org/springframework/spring-beans/4.3.12.RELEASE/spring-beans-4.3.12.RELEASE.jar!/org/springframework/beans/factory/config/InstantiationAwareBeanPostProcessor.class&#10;Autow&#9;FILE&#9;jar:///Users/zhl/.m2/repository/org/springframework/spring-beans/4.3.12.RELEASE/spring-beans-4.3.12.RELEASE.jar!/org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.class&#10;ApplicationContextAware&#9;FILE&#9;jar:///Users/zhl/.m2/repository/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE.jar!/org/springframework/context/ApplicationContextAware.class&#10;BeanFactoryP&#9;PSI&#9;JAVA://org.springframework.beans.factory.config.BeanFactoryPostProcessor&#10;Bean&#9;FILE&#9;jar:///Users/zhl/.m2/repository/org/springframework/spring-beans/4.3.12.RELEASE/spring-beans-4.3.12.RELEASE.jar!/org/springframework/beans/factory/config/BeanPostProcessor.class&#10;ApplicationCont&#9;FILE&#9;jar:///Users/zhl/.m2/repository/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE.jar!/org/springframework/context/support/ApplicationContextAwareProcessor.class&#10;ApplicationContextAw&#9;PSI&#9;JAVA://org.springframework.context.support.ApplicationContextAwareProcessor&#10;AutowiredAnnotationBeanPostProcessor&#9;FILE&#9;jar:///Users/zhl/.m2/repository/org/springframework/spring-beans/4.3.12.RELEASE/spring-beans-4.3.12.RELEASE.jar!/org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.class&#10;BeanPost&#9;PSI&#9;JAVA://org.springframework.beans.factory.config.BeanPostProcessor&#10;Post&#9;PSI&#9;JAVA://javax.annotation.PostConstruct" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.backupFiles" value="true" />
@@ -989,7 +1004,10 @@
       <workItem from="1546930219286" duration="1427000" />
       <workItem from="1546946022477" duration="8097000" />
       <workItem from="1547123731138" duration="1078000" />
-      <workItem from="1547428796495" duration="2113000" />
+      <workItem from="1547428796495" duration="2440000" />
+      <workItem from="1547451663106" duration="947000" />
+      <workItem from="1547516975741" duration="244000" />
+      <workItem from="1547518686050" duration="256000" />
     </task>
     <servers />
   </component>
@@ -1026,7 +1044,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="402364000" />
+    <option name="totallyTimeSpent" value="404138000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-254" y="-1080" width="1920" height="1080" extended-state="0" />
@@ -1039,7 +1057,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2513312" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25665602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37437934" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1053,7 +1071,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7457795" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19275825" sideWeight="0.486166" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19488817" sideWeight="0.486166" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3111588" sideWeight="0.513834" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1308,55 +1326,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/17.0/guava-17.0-sources.jar!/com/google/common/util/concurrent/AbstractListeningExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="53" column="43" lean-forward="false" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="88" column="28" lean-forward="true" selection-start-line="88" selection-start-column="28" selection-end-line="88" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/ExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="178" column="29" lean-forward="true" selection-start-line="178" selection-start-column="29" selection-end-line="178" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="237" column="11" lean-forward="false" selection-start-line="237" selection-start-column="11" selection-end-line="237" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/AbstractExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="133" column="12" lean-forward="false" selection-start-line="133" selection-start-column="12" selection-end-line="133" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/Executor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="784">
-          <caret line="139" column="9" lean-forward="false" selection-start-line="139" selection-start-column="9" selection-end-line="139" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/RejectedExecutionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="60" column="9" lean-forward="false" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/thread/ThreadPoolExample01.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="472">
@@ -1558,16 +1527,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5594">
           <caret line="1341" column="18" lean-forward="false" selection-start-line="1341" selection-start-column="18" selection-end-line="1341" selection-end-column="18" />
-          <folding>
-            <element signature="e#44444#44445#0" expanded="false" />
-            <element signature="e#44501#44502#0" expanded="false" />
-            <element signature="e#45599#45600#0" expanded="false" />
-            <element signature="e#45656#45657#0" expanded="false" />
-            <element signature="e#61323#61331#0" expanded="false" />
-            <element signature="e#61946#61954#0" expanded="false" />
-            <element signature="e#62618#62626#0" expanded="false" />
-            <element signature="e#88061#88069#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1583,7 +1542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1605,7 +1563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1613,15 +1570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9900">
           <caret line="492" column="30" lean-forward="false" selection-start-line="492" selection-start-column="30" selection-end-line="492" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70686">
-          <caret line="3284" column="20" lean-forward="false" selection-start-line="3284" selection-start-column="20" selection-end-line="3284" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1629,7 +1577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1637,7 +1584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="166" column="17" lean-forward="false" selection-start-line="166" selection-start-column="17" selection-end-line="166" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1645,14 +1591,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
           <caret line="678" column="30" lean-forward="true" selection-start-line="678" selection-start-column="30" selection-end-line="678" selection-end-column="30" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="938">
+          <caret line="431" column="26" lean-forward="false" selection-start-line="431" selection-start-column="26" selection-end-line="431" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/algorithm/BubbleSort01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="264">
           <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/algorithm/SelectionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1665,18 +1624,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/algorithm/SelectionSort.java">
+    <entry file="file://$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/designModel.java" />
+    <entry file="file://$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/designModel/adapter/ISquare.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        <state relative-caret-position="154">
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java">
+    <entry file="file://$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/designModel/adapter/ICircle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="938">
-          <caret line="431" column="26" lean-forward="false" selection-start-line="431" selection-start-column="26" selection-end-line="431" selection-end-column="26" />
+        <state relative-caret-position="132">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/designModel/adapter/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/designModel/adapter/Square.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding>
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/designModel/adapter/HybridShape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+          <folding>
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5258">
+          <caret line="288" column="29" lean-forward="false" selection-start-line="288" selection-start-column="29" selection-end-line="288" selection-end-column="29" />
+          <folding>
+            <element signature="e#5027#5028#0" expanded="true" />
+            <element signature="e#5098#5099#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/DualPivotQuicksort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2046">
+          <caret line="116" column="41" lean-forward="false" selection-start-line="116" selection-start-column="41" selection-end-line="116" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -1684,7 +1702,7 @@
     <entry file="file://$PROJECT_DIR$/javaprojectservice/src/main/java/com/zhl/algorithm/InsertSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
-          <caret line="25" column="9" lean-forward="false" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
           <folding />
         </state>
       </provider>
