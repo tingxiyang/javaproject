@@ -50,22 +50,6 @@
 			expression="org.springframework.stereotype.Controller" />
 	</context:component-scan>-->
 
-<!--
-	<bean class="com.shebao.framelib.util.SpringApplicationContextUtil" />
--->
-
-  <!--  <bean id="multipleDataSourceAspectAdvice"
-        class="com.shebao.base.mapper.MultipleDataSourceAspectAdvice"></bean>
-    <aop:config>
-        <aop:aspect ref="multipleDataSourceAspectAdvice"> &lt;!&ndash;指定切面 &ndash;&gt;
-            &lt;!&ndash;定义切点 &ndash;&gt;
-            <aop:pointcut id="point"
-                expression="execution(* com.shebao.**.mapper.*.*(..)) or execution(* com.shebao.**.sc.mapper.*.*(..))"></aop:pointcut>
-
-            &lt;!&ndash;定义连接点 &ndash;&gt;
-            <aop:around pointcut-ref="point" method="doAround"></aop:around>
-        </aop:aspect>
-    </aop:config>-->
 
 
 

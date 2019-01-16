@@ -44,26 +44,5 @@
 		<property name="username" value="${jdbc.main.username.md}" />
 		<property name="password" value="${jdbc.main.password.md}" />
 	</bean>
-	
-	<!--<bean id="multipleDataSource" class="com.shebao.framelib.datasource.MultipleDataSource">
-        <property name="defaultTargetDataSource" ref="dataSource" />
-        <property name="targetDataSources">
-            <map>
-                <entry key="SqlDataSource" value-ref="dataSource" />
-                <entry key="${jdbc.main.dataSourceErp}" value-ref="dataSourceErp" />
-                <entry key="${jdbc.main.dataSourceMd}" value-ref="dataSourceMd" />
-            </map>
-        </property>
-    </bean>
-	
-	<bean class="org.mybatis.spring.SqlSessionFactoryBean" name="sqlSessionFactoryName">
-		<property name="dataSource" ref="multipleDataSource"/>
-		<property name="configLocation" value="classpath:spring/sqlmap-config.xml" />
-	</bean>
-    
-    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactoryName" />
-		<property name="basePackage"
-			value="com.shebao.**.mapper" />
-	</bean>-->
+
 </beans>

@@ -14,7 +14,7 @@
 					http://www.springframework.org/schema/task 
 					http://www.springframework.org/schema/task/spring-task.xsd">
 					
-	<!--<context:component-scan base-package="com.shebao">
+	<!--<context:component-scan base-package="com.zhl">
 		<context:include-filter type="annotation"
 			expression="org.springframework.stereotype.Controller" />
 		<context:exclude-filter type="annotation"
@@ -27,8 +27,6 @@
 -->
 
 <!--
-	<bean id="bigDecimalSerializer" class="com.shebao.framelib.common.BigDecimalSerializer"></bean>
--->
 
 	<mvc:view-resolvers>
         <mvc:content-negotiation>
@@ -49,13 +47,9 @@
         <mvc:jsp cache-views="false" prefix="/WEB-INF/jsps/" suffix=".jsp"/>
     </mvc:view-resolvers>
 	<mvc:default-servlet-handler/>
+	-->
 
-	<!-- 配置 multipartResolver 用户文件上传 -->
-	<!--<bean id="multipartResolver"
-		class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
-		<property name="maxUploadSize" value="209715200" />&lt;!&ndash; 上传文件大小限制为200M，200*1024*1024 &ndash;&gt;
-		<property name="defaultEncoding" value="UTF-8" />
-	</bean>-->
+
 
 	<!-- 国际化的消息资源文件 -->
 	<bean id="messageSource"
